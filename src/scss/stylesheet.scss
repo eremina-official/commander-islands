@@ -1,7 +1,10 @@
 /** commander-islands
  * sass is installed locally via npm
  * node-sass is used to compile scss files to css
+ * file.autoSave afterDelay 
  */
+
+@import 'variables';
 
 body {
   margin: 0;
@@ -14,6 +17,4 @@ body {
   box-sizing: border-box; 
 }
 
-ul {
-  list-style-type: none;
-}
+@import 'header';
